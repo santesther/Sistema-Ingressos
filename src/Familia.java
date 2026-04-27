@@ -7,7 +7,7 @@ public class Familia extends Ingresso {
     @Override
     public float valorIngresso(float valor, int quantidade) {
         if (quantidade > 3){
-            return valor * quantidade - (0.5F * valor);
+            return valor * quantidade - (0.05F * valor);
         }
         return valor * quantidade;
     }
